@@ -1,0 +1,77 @@
+body {
+    width: 870px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    background-color: rgb(185,179,175);
+}
+
+div {
+    float: left;
+    width: 66%;
+}
+
+section {
+    overflow: auto;
+}
+
+img{
+    width: 200px;
+    float: right;
+    border: 2px solid white;
+    padding: 4px;
+}
+
+nav, ul, h1, h2, h3, h4, h5 { 
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-family: Times New Roman;
+    color: rgb(245,245,245);
+}
+
+li{
+    display: inline;
+}
+
+nav li, footer li{
+    display: inline
+}
+
+li + li, footer li+li {
+    padding-left: 3px;
+    border-left: 1px solid black;
+    color: rgb(245,245,245)
+}
+    
+h1,h2,h3,h4 {
+    text-transform: uppercase;
+    color: rgb(245,245,245)
+}
+    
+div {
+    width: 66%;
+    float: left;
+}
+
+input{
+ border: 3;
+ padding: 10px;
+ font-size: 16px;
+ font-family: Times New Roman;
+}
+
+input[type="submit"] {
+  background: black;
+  color: white;
+}
+
+p {
+    font: Times New Roman;
+}
+
+    
+
+
